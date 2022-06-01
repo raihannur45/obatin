@@ -77,11 +77,13 @@ def chatbot():
       label_output = k
 
   if label_output in search:
+    list_user_input = list(user_input.split())
     for obat in list_namaobat_lower:
-      if obat in user_input:
-        nama_obat = obat
-        search_database = 1
-        break
+      for word in list_user_input:
+        if obat in word or word in obat:
+          nama_obat = obat
+          search_database = 1
+          break
 
   return jsonify(label = label_output, namaobat = nama_obat, status = str(search_database))
 
