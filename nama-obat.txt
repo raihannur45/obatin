@@ -607,14 +607,14 @@ Nusinersen
 Nutribaby Royal 1
 Nutribaby Royal 2
 Nutrilon Royal Prosyneo
-NUVO Hand Sanitizer dan Hand Soap
+NUVO Hand Sanitizer and Hand Soap
 Nystatin
-Obat Antihipertensi
-Obat Antivirus
-Obat Digestan
-Obat Golongan Tetracycline
-Obat Imunosupresan
-Obat Pencahar
+Antihipertensi
+Antivirus
+Digestan
+Tetracycline
+Imunosupresan
+Pencahar
 Octreotide
 Ofloxacin
 Oksitosin
