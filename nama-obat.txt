@@ -390,6 +390,7 @@ Granisetron
 Griseofulvin
 Guaifenesin
 H-Booster
+Habatussaudah
 Haloperidol
 Halothane
 Heparin
@@ -432,6 +433,7 @@ Interferon alfa-n3
 Interferon Beta-1a
 Interferon Beta-1b
 Interferon Gamma-1b
+Inzana
 Ipratropium
 Irbesartan
 Irinotecan
@@ -466,6 +468,7 @@ Kina
 Kiranti
 Klorokuin
 Komix
+Konidin
 Kortikosteroid
 Kotrimoksazol
 L-Alanyl-L-Glutamine
