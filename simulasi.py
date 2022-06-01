@@ -8,6 +8,13 @@ new_model = tf.keras.models.load_model('saved_model/my_model')
 new_model.summary()
 loss, acc = new_model.evaluate(testing_padded, label_test_np)
 
+#memuat stopwords bahasa indonesia
+stopwords = []
+with open('stopwords.txt') as txt_stopwords:
+  for word in txt_stopwords:
+    word = word.strip()
+    stopwords.append(word)
+
 #memuat list yang berisi nama-nama obat di pasaran ke program
 list_namaobat = []
 list_namaobat_lower = []
@@ -71,19 +78,21 @@ def chatbot():
   user_input_token = pad_sequences(user_input_token, maxlen=MAXLEN, padding='post')
 
   predik = new_model.predict(user_input_token)
-  output = predik.argmax() + 1
-  for k,v in word_index.items():
-    if v == output:
-      label_output = k
+  if np.amin(predik) > 0.0001:
+    label_output = 'tidakpaham'
+  else:
+    output = predik.argmax() + 1
+    for k,v in word_index.items():
+      if v == output:
+        label_output = k
 
   if label_output in search:
     list_user_input = list(user_input.split())
     for obat in list_namaobat_lower:
-      for word in list_user_input:
-        if obat in word or word in obat:
-          nama_obat = obat
-          search_database = 1
-          break
+      if any(word for word in list_user_input if obat.startswith(word) and word not in stopwords):
+        nama_obat = obat
+        search_database = 1
+        break
 
   return jsonify(label = label_output, namaobat = nama_obat, status = str(search_database))
 
