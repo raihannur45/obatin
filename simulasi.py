@@ -89,7 +89,7 @@ def chatbot():
   if label_output in search:
     list_user_input = list(user_input.split())
     for obat in list_namaobat_lower:
-      if any(word for word in list_user_input if obat.startswith(word) and word not in stopwords):
+      if any(word for word in list_user_input if (obat in word or word in obat) and word not in stopwords):
         nama_obat = obat
         search_database = 1
         break
