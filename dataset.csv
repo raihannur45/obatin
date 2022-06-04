@@ -8,6 +8,7 @@ kandungan,muatan apa saja yang ada di obat ini
 efeksamping,penyakit yang mungkin timbul dari dampak negatif konsumsi obat
 pergi,membantu sekali informasi darimu
 cara,menggunakan obat
+pergi,aku pergi ya
 fitur,informasi yang dapat disampaikan oleh obatin
 efeksamping,Konsekuensi setelah minum obat ini
 efeksamping,Apa dampak buruk yang ditimbulkan setelah konsumsi obat
@@ -36,6 +37,7 @@ pergi,Dari lubuk hati saya saya ucapkan terima kasih
 kandungan,apakah obat mengandung
 cara,tahapan pemakaian obat
 efeksamping,Alergi yang ditimbulkan
+pergi,pergi
 kandungan,Apa kandungan  obat ini?
 indikasi,sebutkan faidah dari swamedikasi menggunakan obat
 kandungan,bahan yang terkandung dalam sebuah obat
@@ -93,6 +95,7 @@ kandungan,komposisi obat ini apa?
 fitur,Boleh kasih info fiturmu
 kandungan,zat apa yang menjadi penyusun obat ini
 cara,cara yang benar memakai obat
+pergi,beneran boleh pergi?
 kandungan,senyawa penyusun dari suatu obat
 indikasi,mengapa lebih baik mengkonsumsi obat ini
 indikasi,obat ini nyembuhin apa
@@ -164,6 +167,7 @@ kandungan,yang tekandung dalam obat
 efeksamping,keluhan yang mungkin muncul setelah minum obat
 efeksamping,apa efek samping dari obat ini
 indikasi,Kegunaan obat
+pergi,pergi dulu ya
 efeksamping,alergi akibat pemakaian obat
 indikasi,Apa efek baik yg bisa saya dapatkan setelah meminum obat ini?
 kandungan,obat ini terbuat dari apa
@@ -236,6 +240,7 @@ indikasi,jelaskan dampak positif yang didapat dari mengonsumsi obat
 efeksamping,Reaksi yang akan ditimbulkan setelah aku minum obat ini
 efeksamping,keluhan yang mungkin muncul akibat efek samping dari minum obat
 kandungan,kandungan yang terdapat di obat
+pergi,pergi ya aku
 cara,panduan minum obat
 efeksamping,Bagaimana dampak jika kita minum obat
 cara,berapa kali minum obat
@@ -406,6 +411,7 @@ kandungan,apa yang menjadi komposisi obat
 efeksamping,Gejala yang timbul seperti apa ketika aku pakai obat ini
 indikasi,obat ini pas untuk sakit apa
 kandungan,apa aja zat yang ada di obat ini
+pergi,aku pamit pergi ya
 kandungan,obat ini terdiri dari senyawa apa?
 cara,sebutkan cara mengonsumsi obat sesuai anjuran
 cara,Adakah anjuran penggunaan obatnya
@@ -430,6 +436,7 @@ fitur,obatin bisa membantu kita untuk apa
 indikasi,mau nanya terkait Manfaat obat
 fitur,kamu bisa ngapain aja
 fitur,apa yang kamu tawarkan
+pergi,terimakasih aku pergi dulu ya
 kandungan,terbuat dari apa obat ini
 efeksamping,dampak negatif
 kandungan,detail kandungan obat
@@ -469,6 +476,7 @@ cara,ketentuan terkait konsumsi obat
 indikasi,efek baik dari obat
 fitur,bantuan apa yang kamu tawarkan
 fitur,Gimana nih cara pakainya
+pergi,sudah ya aku pergi dulu
 cara,cara meminum obat
 cara,adakah langkah penggunaan obat
 cara,tentang prosedur penggunaan obat yang benar
@@ -523,6 +531,7 @@ fitur,tampilin fitur dong
 efeksamping,Efek samping jangka pendek obat ini
 fitur,mampukah aplikasi obatin memberi informasi tentang swamedikasi
 indikasi,obat ini diciptakan untuk apa
+pergi,aku pergi dulu terima kasih
 efeksamping,Pengaruh yang terjadi setelah meminum obat
 cara,tata cara konsumsi obat berdasarkan usia
 kandungan,Di dalam obat ini ada apa aja
@@ -548,14 +557,18 @@ indikasi,kegunaan obat ini
 efeksamping,obat meminum Pengaruh tubuh setelah
 pergi,Sampai Jumpa Lagi
 cara,berapa banyak obat yang diminum
+pergi,aku bakal pergi
 cara,berapa takaran obat yang sesuai
 cara,pemakaian obat
+pergi,dadah obatin aku pergi dulu ya
 cara,adakah panduan penggunaan untuk meminum obat ini?
 fitur,dukungan apa yang kamu tawarkan
 efeksamping,dampak buruk
+pergi,leave
 indikasi,sebutkan manfaat dari minum obat
 efeksamping,Reaksi yang tidak diinginkan dari obat
 efeksamping,Reaksi tubuh setelah minum obat ini
 fitur,yang bisa dilakukan obatin
 cara,cara penggunaan obat
 fitur,seberapa bergunanya obatin
+pergi,bye obatin aku leave ya
