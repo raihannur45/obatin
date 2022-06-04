@@ -50,7 +50,6 @@ with open('data_obat.csv') as csvdata:
     newdict['indikasi'] = row[2]
     newdict['efeksamping'] = row[3]
     newdict['cara'] = row[4]
-    row[0] = row[0].lower()
     listobat[row[0]] = newdict
 
 #label-label yang digunakan untuk mencari data di database obat
@@ -99,14 +98,16 @@ def chatbot():
 #endpoint untuk mencari data di database obat yang dimiliki
 @app.route("/database")
 def search_database():
+  ditemukan = 0
+  jawaban = ''
   req_label = request.args.get('label')
   req_nama_obat = request.args.get('namaobat')
   for obat in listobat:
-    if req_nama_obat.lower() in obat or obat in req_nama_obat.lower():
-      jawaban = listobat[obat][req_label]
-      break
-    else:
-      jawaban = 'Data obat ' + req_nama_obat + ' tidak ditemukan'
+    if req_nama_obat.lower() in obat.lower() or obat.lower() in req_nama_obat.lower():
+      jawaban = jawaban + obat + '\n' + listobat[obat][req_label] + '\n'
+      ditemukan = 1
+  if ditemukan == 0:
+    jawaban = 'Data obat ' + req_nama_obat + ' tidak ditemukan'
   return jsonify(jawab = jawaban)
 
 #endpoint untuk mencari respon bot sesuai label yang diprediksi
