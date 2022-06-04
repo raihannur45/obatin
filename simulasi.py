@@ -101,6 +101,7 @@ def chatbot():
 def search_database():
   req_label = request.args.get('label')
   req_nama_obat = request.args.get('namaobat')
+  req_nama_obat = req_nama_obat.lower()
   if req_nama_obat in listobat:
     jawaban = listobat[req_nama_obat][req_label]
   else:
