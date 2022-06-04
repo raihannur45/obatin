@@ -78,7 +78,7 @@ def chatbot():
   user_input_token = pad_sequences(user_input_token, maxlen=MAXLEN, padding='post')
 
   predik = new_model.predict(user_input_token)
-  if np.amin(predik) > 0.0001:
+  if np.amin(predik) > 0.001:
     label_output = 'tidakpaham'
   else:
     output = predik.argmax() + 1
