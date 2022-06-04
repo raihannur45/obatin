@@ -101,11 +101,10 @@ def chatbot():
 def search_database():
   req_label = request.args.get('label')
   req_nama_obat = request.args.get('namaobat')
-  req_nama_obat = req_nama_obat.lower()
-  if req_nama_obat in listobat:
-    jawaban = listobat[req_nama_obat][req_label]
+  if req_nama_obat.lower() in listobat:
+    jawaban = listobat[req_nama_obat.lower()][req_label]
   else:
-    jawaban = 'Data obat tidak ditemukan'
+    jawaban = 'Data obat' + req_nama_obat + 'tidak ditemukan'
   return jsonify(jawab = jawaban)
 
 #endpoint untuk mencari respon bot sesuai label yang diprediksi
