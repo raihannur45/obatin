@@ -22,7 +22,6 @@ with open('nama-obat.txt') as txtnamaobat:
   for namaobat in txtnamaobat:
     namaobat = namaobat.strip()
     namaobatlower = namaobat.lower()
-    list_namaobat.append(namaobat)
     list_namaobat_lower.append(namaobatlower)
 
 #memuat file yang berisi respon dari bot untuk setiap label
