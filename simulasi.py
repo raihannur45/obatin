@@ -108,6 +108,8 @@ def search_database():
       ditemukan = 1
   if ditemukan == 0:
     jawaban = 'Data obat ' + req_nama_obat + ' tidak ditemukan'
+  else:
+    jawaban = jawaban[:(len(jawaban) - 1)]
   return jsonify(jawab = jawaban)
 
 #endpoint untuk mencari respon bot sesuai label yang diprediksi
