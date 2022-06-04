@@ -104,7 +104,7 @@ def search_database():
   if req_nama_obat.lower() in listobat:
     jawaban = listobat[req_nama_obat.lower()][req_label]
   else:
-    jawaban = 'Data obat' + req_nama_obat + 'tidak ditemukan'
+    jawaban = 'Data obat ' + req_nama_obat + ' tidak ditemukan'
   return jsonify(jawab = jawaban)
 
 #endpoint untuk mencari respon bot sesuai label yang diprediksi
