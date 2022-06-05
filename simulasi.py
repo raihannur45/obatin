@@ -10,7 +10,7 @@ loss, acc = new_model.evaluate(testing_padded, label_test_np)
 
 #memuat stopwords bahasa indonesia
 stopwords = []
-with open('stopwords.txt') as txt_stopwords:
+with open('database/stopwords.txt') as txt_stopwords:
   for word in txt_stopwords:
     word = word.strip()
     stopwords.append(word)
@@ -18,7 +18,7 @@ with open('stopwords.txt') as txt_stopwords:
 #memuat list yang berisi nama-nama obat di pasaran ke program
 list_namaobat = []
 list_namaobat_lower = []
-with open('nama-obat.txt') as txtnamaobat:
+with open('database/nama-obat.txt') as txtnamaobat:
   for namaobat in txtnamaobat:
     namaobat = namaobat.strip()
     namaobatlower = namaobat.lower()
@@ -27,7 +27,7 @@ with open('nama-obat.txt') as txtnamaobat:
 #memuat file yang berisi respon dari bot untuk setiap label
 responses = {}
 tag = ''
-with open('data_respon.csv') as csvdata:
+with open('database/data_respon.csv') as csvdata:
   readcsv = csv.reader(csvdata, delimiter=',')
   for row in readcsv:
     if tag == row[0]:
@@ -41,7 +41,7 @@ with open('data_respon.csv') as csvdata:
 
 #memuat file yang berisi database obat yang dimiliki
 listobat = {}
-with open('data_obat.csv') as csvdata:
+with open('database/data_obat.csv') as csvdata:
   readcsv = csv.reader(csvdata, delimiter=';')
   for row in readcsv:
     newdict = {}
