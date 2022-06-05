@@ -16,7 +16,7 @@ factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
 #extract file dataset ke program
-with open('dataset.csv') as csvdata:
+with open('database/dataset.csv') as csvdata:
     reader = csv.reader(csvdata, delimiter=',')
     next(reader)
     for row in reader:
