@@ -106,7 +106,7 @@
 
 <br/>
 
-## Design Infrastruktur
+## Infrastructure Design
 ![Design Infra](https://cdn.discordapp.com/attachments/889158043470811209/985098133895778314/infastruktur.png)
 
 <br/>
