@@ -38,13 +38,13 @@
                 <td>Raihan Nur Ramadhan</td>
 				<td>Machine Learning</td>
 				<td>M7010F1098</td>
-				<td></td>
+				<td><p><a href="https://www.linkedin.com/in/raihan-nur-ramadhan-3597541b2">LinkedIn</a></p> & <p><a href="https://github.com/raihannur45"> Github</a></p></td>
             </tr>
 			<tr>
                 <td>Mohamad Rayhan Adhari Nugroho</td>
 				<td>Machine Learning</td>
 				<td>M7010F1089</td>
-				<td></td>
+				<td><p><a href="https://www.linkedin.com/in/mohamad-rayhan-adhari-nugroho-b934411a2">LinkedIn</a></p></td>
             </tr>
 			<tr>
                 <td>Ragil Murdiantoro Aji</td>
