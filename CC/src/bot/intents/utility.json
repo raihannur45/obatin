@@ -1,0 +1,26 @@
+{
+  "questions": [
+    "Indikasi obat",
+    "Manfaat obat",
+    "Fungsi obat",
+    "Tujuan obat",
+    "Kegunaan obat",
+    "Obat ini fungsinya apa",
+    "Gunanya obat ini apa",
+    "Obat ini bermanfaat untuk apa",
+    "Untuk apa obat ini",
+    "Apa saja manfaat dari obat ini",
+    "Adakah manfaat dari obat ini",
+    "Obat ini dapat digunakan untuk apa",
+    "Fungsi obat ini buat apa ya",
+    "Digunakan untuk apa obat ini",
+    "Tujuan dibuatnya obat ini apa"
+  ],
+  "answers": [
+      "Dapat menghilangkan rasa dengki serta iri hati",
+      "berperan penting dalam mencegah, mengurangi, dan menyembuhkan gejala, penyakit, atau gangguan kesehatan tertentu",
+      "Dapat membantu mengobati mentalmu yang sedang terluka",
+      "sebagai obat batuk, sakit gigi, sakit telinga, atherosclerosis, diare, disentri, diptheri dan vaginitas.",
+      "bmeningkatkan system kekebalan tubuh"
+  ]
+}

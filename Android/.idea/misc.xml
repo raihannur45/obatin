@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/bg_btn_login.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/bg_btn_register.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/bg_btn_send.xml" value="0.1185" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/bg_input_send.xml" value="0.1185" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/border_bottom.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/ic_image_2.xml" value="0.2195" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/ic_obatin_logo.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/ic_outline_send_24.xml" value="0.1185" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/ic_round_logout.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/obatin_avatar.xml" value="0.1485" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/rounded_message_blue.xml" value="0.1185" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/rounded_message_yellow.xml" value="0.1185" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/drawable/splash_image.xml" value="0.217" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/activity_register.xml" value="0.5" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/layout/item_message.xml" value="0.25" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/menu/main_menu.xml" value="0.2125" />
+        <entry key="..\:/Users/Kim/Documents/Application/AndroidStudioProjects/BangkitCapstoneProject/app/src/main/res/menu/profile_menu.xml" value="0.2125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/green" />
+
+    <item
+        android:drawable="@drawable/ic_obatin_logo"
+        android:gravity="center" />
+
+</layer-list>

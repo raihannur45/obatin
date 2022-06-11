@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/burger_icon"
+        android:icon="@drawable/ic_round_menu"
+        android:title="Menu"
+        app:showAsAction="ifRoom|withText">
+
+        <menu>
+
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_person_menu"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_round_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
