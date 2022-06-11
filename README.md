@@ -44,7 +44,7 @@
                 <td>Mohamad Rayhan Adhari Nugroho</td>
 				<td>Machine Learning</td>
 				<td>M7010F1089</td>
-				<td><p><a href="https://www.linkedin.com/in/mohamad-rayhan-adhari-nugroho-b934411a2">LinkedIn</a></p></td>
+				<td><p><a href="https://www.linkedin.com/in/mohamad-rayhan-adhari-nugroho-b934411a2">LinkedIn</a></p> & <p><a href="https://github.com/RayhanAdhari"> Github</a></p></td>
             </tr>
 			<tr>
                 <td>Ragil Murdiantoro Aji</td>
