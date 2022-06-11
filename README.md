@@ -138,8 +138,7 @@ git clone https://github.com/raihannur45/obatin.git
 ```
 - How To Run Code
 ```bash
-export FLASK_APP=simulasi.py
-python -m flask run
+python simulasi.py
 ```
 ```bash
 curl http://localhost:5000/bot?text=cara%20minum%20obat%20bisolvon
