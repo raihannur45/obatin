@@ -18,7 +18,7 @@
                 <th>Name</th>
                 <th>Path</th>
 				<th>Bangkit ID</th>
-				<th>Sosial Media</th>
+				<th>Social Media</th>
             </tr>
         </thead>
         <tbody>
